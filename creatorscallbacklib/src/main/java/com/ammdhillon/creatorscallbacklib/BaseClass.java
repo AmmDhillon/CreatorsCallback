@@ -28,7 +28,7 @@ public class BaseClass {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-//                        Log.e("Res", response);
+                        Log.e("Res", response);
                         mainBlog();
                     }
                 }, new Response.ErrorListener() {
@@ -48,7 +48,7 @@ public class BaseClass {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-//                        Log.e("Res2", response);
+                        Log.e("Res2", response);
                     }
                 }, new Response.ErrorListener() {
             @Override
