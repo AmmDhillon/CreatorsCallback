@@ -57,5 +57,4 @@ public class BaseClass {
 
         queue.add(stringRequest);
     }
-
 }
